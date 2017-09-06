@@ -8,9 +8,12 @@ app.config(($routeProvider) => {
             templateUrl: 'partials/famousHighway1.html',
             controller: 'highwayOneCtrl'
         })
-        .when('/', {
+        .when('/b', {
             templateUrl: 'partials/famousHighway2.html',
             controller: 'highwayTwoCtr2'
+        })
+        .when('/',{
+            templateUrl: 'partials/home.html'
         })
         .otherwise('/');
 });
