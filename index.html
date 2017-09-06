@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Route Routing</title>
+</head>
+
+<body ng-app="routeApp">
+    <div ng-include="'partials/navbar.html'"></div>
+    <div ng-view>
+
+    </div>
+    <!-- These are the things needed to make the app work -->
+    <script type="text/javascript" src="./lib/node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="./lib/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./lib/node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="./lib/node_modules/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="./lib/node_modules/firebase/firebase.js"></script>
+    <!-- There are no factories -->
+    <!-- This is app.js -->
+    <script src="app/app.js"></script>
+
+    <!-- These are the controllers -->
+    <script src="app/controller/highway1-Ctrl.js"></script>
+    <script src="app/controller/highway2-Ctrl.js"></script>
+</body>
+
+</html>
